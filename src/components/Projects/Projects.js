@@ -26,8 +26,8 @@ function Projects() {
               isBlog={false}
               title="Medwise"
               description="Medwise, a comprehensive web application designed to enhance accessibility and convenience in healthcare. Medwise enables patients to book appointments with doctors, visit clinics, receive virtual prescriptions, and explore various healthcare services. The platform ensures seamless interaction between patients and healthcare providers through features such as real-time communication, secure access to medical records, and emergency assistance."
-              ghLink="https://github.com/mayank-kumar03/Medwise"
-              demoLink="https://mayank-kumar03.github.io/Medwise/"
+              ghLink="https://github.com/mayank-kumar03/Medwise-Smart-healthcare-"
+              demoLink="https://medwise-smart-healthcare.netlify.app/"
             />
           </Col>
 
