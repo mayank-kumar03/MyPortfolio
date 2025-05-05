@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import Tic_tac_toe from "../../Assets/Projects/Tic_tac_toe.png";
-import Video_Wallah from "../../Assets/Projects/Video_Wallah.webp";
+import Video_Wallah from "../../Assets/Projects/Video_Wallah.png";
 import Medwise from "../../Assets/Projects/Medwise.png";
 import calculator from "../../Assets/Projects/calculator.webp";
 import Task_manager from "../../Assets/Projects/Task_manager.png";
@@ -37,7 +37,7 @@ function Projects() {
               imgPath={Video_Wallah}
               isBlog={false}
               title="Video Wall"
-              description="This project is the backend for a YouTube-like application, providing a comprehensive set of features that allow users to register, log in, manage their profiles, and interact with video content. The backend is built using Node.js, Express, and MongoDB, and it utilizes JWT for authentication and Cloudinary for image uploads."
+              description="Video Wall is a modern video hosting platform inspired by YouTube. It provides a seamless and responsive user interface for browsing, watching, and interacting with video content. The platform includes a robust backend for managing user authentication, video uploads, and interactions."
               ghLink="https://github.com/mayank-kumar03/My-Youtube"
               demoLink="https://mk-video-wall.netlify.app/"
            
