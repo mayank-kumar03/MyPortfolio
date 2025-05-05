@@ -31,16 +31,6 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={Task_manager}
-              isBlog={false}
-              title="Task Manager"
-              description="Task Manager is a basic Full-Stack Web Application designed to help you efficiently create, manage, and complete tasks. Built using the MERN stack (MongoDB, Express.js, React, Node.js), designed to create, manage, and complete tasks efficiently. This project follows REST API principles and includes proper error handling and data validation with Zod."
-              ghLink="https://github.com/mayank-kumar03/Task_manager_mern"
-              demoLink="https://task-manager-frontend-bfl7.onrender.com/"
-            />
-          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -49,7 +39,20 @@ function Projects() {
               title="Video Wall"
               description="This project is the backend for a YouTube-like application, providing a comprehensive set of features that allow users to register, log in, manage their profiles, and interact with video content. The backend is built using Node.js, Express, and MongoDB, and it utilizes JWT for authentication and Cloudinary for image uploads."
               ghLink="https://github.com/mayank-kumar03/My-Youtube"
+              demoLink="https://mk-video-wall.netlify.app/"
+           
                         
+            />
+          </Col>
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Task_manager}
+              isBlog={false}
+              title="Task Manager"
+              description="Task Manager is a basic Full-Stack Web Application designed to help you efficiently create, manage, and complete tasks. Built using the MERN stack (MongoDB, Express.js, React, Node.js), designed to create, manage, and complete tasks efficiently. This project follows REST API principles and includes proper error handling and data validation with Zod."
+              ghLink="https://github.com/mayank-kumar03/Task_manager_mern"
+              demoLink="https://task-manager-frontend-bfl7.onrender.com/"
             />
           </Col>
 
