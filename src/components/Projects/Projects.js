@@ -7,6 +7,7 @@ import Video_Wallah from "../../Assets/Projects/Video_Wallah.png";
 import Medwise from "../../Assets/Projects/Medwise.png";
 import calculator from "../../Assets/Projects/calculator.webp";
 import Task_manager from "../../Assets/Projects/Task_manager.png";
+import Math_score_prediction from "../../Assets/Projects/Math_score_prediction.png";
 
 function Projects() {
   return (
@@ -44,6 +45,16 @@ function Projects() {
                         
             />
           </Col>
+          <Col md={4} className="project-card">
+  <ProjectCard
+    imgPath={Math_score_prediction}
+    isBlog={false}
+    title="Student Exam Performance Indicator"
+    description="An end-to-end machine learning project that predicts a student's math score based on demographic and academic information. Demonstrates the complete ML workflow: data ingestion, preprocessing, model training, evaluation, and deployment with a modern Flask web interface. Features real-time prediction, robust pipelines, model persistence, and a user-friendly UI."
+    ghLink="https://github.com/mayank-kumar03/Maths_score_prediction"
+    demoLink="https://maths-score-prediction-lpvz.onrender.com"
+  />
+</Col>
           
           <Col md={4} className="project-card">
             <ProjectCard
