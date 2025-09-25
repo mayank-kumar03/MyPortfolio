@@ -8,6 +8,7 @@ import Medwise from "../../Assets/Projects/Medwise.png";
 import calculator from "../../Assets/Projects/calculator.webp";
 import Task_manager from "../../Assets/Projects/Task_manager.png";
 import Math_score_prediction from "../../Assets/Projects/Math_score_prediction.png";
+import user_verification from "../../Assets/Projects/user_verification.webp";
 
 function Projects() {
   return (
@@ -21,6 +22,16 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={user_verification}
+              isBlog={false}
+              title="Churning Bank user_verification"
+              description="Implemented a deep learning–based user authentication system using Artificial Neural Networks (ANN). Features include data preprocessing (label encoding & scaling), model persistence, and a Streamlit web interface for secure, real-time predictions."
+              ghLink="https://github.com/mayank-kumar03/User_verification_system"
+              demoLink="https://userverificationsystem-nwueohadazz8h9caxn9uvx.streamlit.app/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Medwise}
