@@ -9,7 +9,7 @@ function Type() {
           "Software Developer",
           "MERN Stack Developer",
           "Machine Learning Enthusiast",
-          "Learner",
+          "Exploring ",
         ],
         autoStart: true,
         loop: true,
