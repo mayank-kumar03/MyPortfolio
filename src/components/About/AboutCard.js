@@ -41,3 +41,9 @@ function AboutCard() {
 }
 
 export default AboutCard;
+
+
+
+
+
+
