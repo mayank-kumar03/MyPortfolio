@@ -7,17 +7,17 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Mayank Kumar </span>
-            from <span className="purple"> Kanpur, India.</span>
-            <br />
-            I am  currently pursuing a Bachelor of Technology in Computer Science with a specialization in Artificial Intelligence.
-            <br />
-            I have completed the Supervised Machine Learning course from DeepLearning.AI on Coursera.
-            <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
-          </p>
+      <p style={{ textAlign: "justify" }}>
+  Hi Everyone, I am <span className="purple">Mayank Kumar </span>
+  from <span className="purple"> Kanpur, India.</span>
+  <br />
+  I am currently pursuing a <span className="purple">Bachelor of Technology in Computer Science</span> with a specialization in <span className="purple">Artificial Intelligence</span>.
+  <br />
+  Beyond development, I have demonstrated strong algorithmic problem-solving skills by securing a <span className="purple">Global Rank of 3894</span> in Round 2 of <span className="purple">TCS CodeVita Season 13</span>. I also showcased my ability to innovate under pressure by competing in the <span className="purple">QubitX Hackathon</span>, working on real-world technical challenges.
+  <br />
+  <br />
+  Apart from coding, some other activities that I love to do!
+</p>
           <ul>
             <li className="about-activity">
               <ImPointRight /> Playing Games

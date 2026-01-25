@@ -9,6 +9,9 @@ import calculator from "../../Assets/Projects/calculator.webp";
 import Task_manager from "../../Assets/Projects/Task_manager.png";
 import Math_score_prediction from "../../Assets/Projects/Math_score_prediction.png";
 import user_verification from "../../Assets/Projects/user_verification.webp";
+import Smart_waste from"../../Assets/Projects/Smart_waste.png";
+import Documind from "../../Assets/Projects/Documind.png";
+import Ecom from "../../Assets/Projects/Ecom.png";
 
 function Projects() {
   return (
@@ -24,14 +27,15 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
            <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={user_verification}
+              imgPath={Smart_waste}
               isBlog={false}
-              title="Churning Bank user_verification"
-              description="Implemented a deep learning–based user authentication system using Artificial Neural Networks (ANN). Features include data preprocessing (label encoding & scaling), model persistence, and a Streamlit web interface for secure, real-time predictions."
-              ghLink="https://github.com/mayank-kumar03/User_verification_system"
-              demoLink="https://userverificationsystem-nwueohadazz8h9caxn9uvx.streamlit.app/"
+              title="Smart waste Recycle System(ScrapSmart)"
+              description="The Smart Recycle System is an AI-powered platform that helps users identify recyclable materials and provides creative DIY reuse ideas. It uses a microservices architecture to process images and generate intelligent recommendations."
+              ghLink="https://github.com/kTechKeshav/Smart-Waste-Recycle-system-Major-Project-/tree/Mayank-Kumar"
+              
             />
           </Col>
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Medwise}
@@ -56,6 +60,16 @@ function Projects() {
                         
             />
           </Col>
+           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={user_verification}
+              isBlog={false}
+              title="Churning Bank user_verification"
+              description="Implemented a deep learning–based user authentication system using Artificial Neural Networks (ANN). Features include data preprocessing (label encoding & scaling), model persistence, and a Streamlit web interface for secure, real-time predictions."
+              ghLink="https://github.com/mayank-kumar03/User_verification_system"
+              demoLink="https://userverificationsystem-nwueohadazz8h9caxn9uvx.streamlit.app/"
+            />
+          </Col>
           <Col md={4} className="project-card">
   <ProjectCard
     imgPath={Math_score_prediction}
@@ -66,6 +80,18 @@ function Projects() {
     demoLink="https://maths-score-prediction-lpvz.onrender.com"
   />
 </Col>
+<Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Documind}
+              isBlog={false}
+              title="Documind-Summary_Assistant"
+              description="Documind Summary Assistant is a smart full-stack web app that helps you upload any document (PDF/Image) and get:
+ AI-powered Summaries
+and  Improvement Suggestions"
+              ghLink="https://github.com/mayank-kumar03/Documind-Summary_Assistant-"
+              demoLink="https://documind-summary-assistant.vercel.app/"
+            />
+          </Col>
           
           <Col md={4} className="project-card">
             <ProjectCard
@@ -77,6 +103,20 @@ function Projects() {
               demoLink="https://task-manager-frontend-bfl7.onrender.com/"
             />
           </Col>
+
+           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Ecom}
+              isBlog={false}
+              title="E-Com Web Application"
+              description="A full-stack e-commerce web application built using React (Vite) for the frontend and Spring Boot for the backend.
+
+The project uses an H2 In-Memory Database, making development simple, fast, and lightweight."
+              ghLink="https://github.com/mayank-kumar03/E-Com"
+              
+            />
+          </Col>
+
 
           <Col md={4} className="project-card">
             <ProjectCard

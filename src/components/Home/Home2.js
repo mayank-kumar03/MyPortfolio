@@ -24,7 +24,7 @@ function Home2() {
               <br />
               <br />I have a strong foundation in these technologies like
               <i>
-                <b className="purple"> C++, Javascript and Python. </b>
+                <b className="purple"> C++, Java and Python. </b>
               </i>
               <br />
               <br />
@@ -33,22 +33,22 @@ function Home2() {
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Machine Learning and Data Science.
+                  Artificial Intelligence & Machine Learning.
                 </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+             Whenever possible, I also apply my passion for developing intelligent solutions
+              with <b className="purple">Python</b> and
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  Machine Learning & Deep Learning
                 </b>
               </i>
-              &nbsp; like
+              &nbsp; frameworks like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> TensorFlow and Scikit-Learn.</b>
               </i>
             </p>
           </Col>
