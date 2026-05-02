@@ -12,6 +12,7 @@ import user_verification from "../../Assets/Projects/user_verification.webp";
 import Smart_waste from"../../Assets/Projects/Smart_waste.png";
 import Documind from "../../Assets/Projects/Documind.png";
 import Ecom from "../../Assets/Projects/Ecom.png";
+import Ai_Tutor_Screener from "../../Assets/Projects/Ai_Tutor_Screener.png";
 
 function Projects() {
   return (
@@ -31,7 +32,7 @@ function Projects() {
               isBlog={false}
               title="Smart waste Recycle System(ScrapSmart)"
               description="The Smart Recycle System is an AI-powered platform that helps users identify recyclable materials and provides creative DIY reuse ideas. It uses a microservices architecture to process images and generate intelligent recommendations."
-              ghLink="https://github.com/kTechKeshav/Smart-Waste-Recycle-system-Major-Project-/tree/Mayank-Kumar"
+              ghLink="https://github.com/mayank-kumar03/ScrapSmart"
               
             />
           </Col>
@@ -60,6 +61,16 @@ function Projects() {
                         
             />
           </Col>
+          <Col md={4} className="project-card">
+  <ProjectCard
+    imgPath={Ai_Tutor_Screener}
+    isBlog={false}
+    title="AI Tutor Screener"
+    description="An intelligent, voice-driven AI interviewer designed to screen tutor candidates. It engages in a natural 10-minute conversation to evaluate crucial soft skills: communication clarity, patience, warmth, ability to simplify, and English fluency."
+    ghLink="https://github.com/mayank-kumar03/ai-tutor-screener"
+    demoLink="https://ai-tutor-screener-lemon.vercel.app/"
+  />
+</Col>
            <Col md={4} className="project-card">
             <ProjectCard
               imgPath={user_verification}
